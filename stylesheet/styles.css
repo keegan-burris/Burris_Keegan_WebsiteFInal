@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3 {
+    color: #001100;
+    font-family: "rufina", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p, a {
+    color: #001100;
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+h1 {
+    font-size: 96px;
+    font-weight: 200px;
+}
+h2 {
+    font-size: 64px;
+    margin: 2px 0;
+    padding-bottom: 15px;
+}
+h3 {
+    font-size: 32px;
+}
+p {
+    font-size: 28px;
+}
+a {
+    font-size: 25px;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #EBE5DC;
+}
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #947266;
+    gap: 20px;
+}
+.nav {
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 100%;
+}
+.hero-image {
+    padding: 20px;
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 588px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.hero-text {
+    max-width: 919px;
+    padding: 60px 0;
+    border: 30px;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.hero-container {
+    max-width: 1280px;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text {
+    align-items: center;
+    margin: 40px 90px;
+    margin-top: 45px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mb-3 {
+    margin-bottom: 12px;
+}
+.mt-1 {
+    margin-top: 20px;
+}
+.menu {
+    background-image: url("../images/menu.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 506px;
+    max-width: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-basis: 50%;
+    margin: 15px 15px;
+}
+.locations {
+    background-image: url("../images/locations.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 506px;
+    max-width: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-basis: 50%;
+    margin: 15px 15px;
+}
+.about {
+    background-image: url("../images/about.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 506px;
+    max-width: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-basis: 50%;
+    margin: 15px 15px;
+}
+.join {
+    background-image: url("../images/join.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 506px;
+    max-width: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-basis: 50%;
+    margin: 15px 15px;
+}
+.review {
+    background-image: url("../images/star-bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 469px;
+    max-width: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-basis: 50%;
+    margin: 15px 15px;
+    padding-top: 80px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.flex-wrapper {
+    justify-content: center;
+    display: flex;
+}
+.col-6 {
+    padding: 0 10px;
+    flex-basis: 50%;
+}
+.r-pad {
+    padding-left: 105px;
+}
+.l-pad {
+    padding-right: 100px;
+}
+.center-text {
+    text-align: center;
+}
+.full-height {
+    height: 100%;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.brn-bg {
+    background-color: #947266;
+    width: full-width;
+    padding-top: 30px;
+    margin-top: 70px;
+}
+no-gap {
+    margin-top: 0 auto;
+}
+.col-4 {
+    flex-basis: 33.333%;
+    padding: 0 6px;
+}
+.grn-bg {
+    padding: 40px;
+    background-color: #89946D;
+    margin-top: 100px;
+}
+.socials {
+    padding: 3px 10px;
+}
+.button {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+    background-color: #947266;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 35px !important;
+    color: black;
+}
+
+.gap {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.font {
+        color: #001100;
+        font-family: "rufina", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 64px;
+        text-decoration: none;
+    }
+.decor {
+    text-decoration: none;
+}
+.sides {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    @media screen and (max-width: 900px) {
+        .review {
+            flex-basis: 100%;
+        }
+    }
+    @media (max-width: 500) {
+        .col-6 {
+            flex-basis: 100%;
+        }
+        .col-4 {
+            flex-basis: 100%;
+        }
+    }
+    @media (max-width: 700px) {
+        .button {
+            flex-wrap: wrap;
+            font-size: 20px;
+        }
+        .nav-links {
+            display: none;
+        }
+        .h-menu {
+            display: inline-block;
+        }
+        .nav {
+            justify-content: space-between;
+            flex-basis: 100%;
+        }
+        .col-6 {
+            flex-basis: 100%;
+            padding: 0 0;
+            align-items: center;
+        }
+        h1 {
+            font-size: 65px;
+        }
+        .menu {
+            flex-basis: 100%;
+        }
+        .locations {
+            flex-basis: 100%;
+        }
+        .about {
+            flex-basis: 100%;
+        }
+        .join {
+            flex-basis: 100%;
+        }
+        .foot {
+            display: block;
+            flex-wrap: wrap;
+        }
+    }
+
+
+
+
